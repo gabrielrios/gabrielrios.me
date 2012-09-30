@@ -11,10 +11,20 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+        <link type="text/css" rel="stylesheet" href="css/960/reset.css" />
+        <link type="text/css" rel="stylesheet" href="css/960/text.css" />
+        <link type="text/css" rel="stylesheet" href="css/960/960.css" />
 
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/zocial.css">
+        <link rel="stylesheet" href="css/base.css">
+        
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
+
+        <!-- 960.gs -->
+
+
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -22,7 +32,44 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        <div class="container_12">
+            <div class="grid_4">
+                &nbsp;
+            </div>
+            <div class="grid_4">
+                <div class="card">
+                    <div class="profile_picture"></div>
+                    <h1>Gabriel Rios</h1>
+                    <h2>Web Developer</h2>
+                    <table id="contact_info">
+                        <tr id="email">
+                            <td><img src="img/email.png" alt="email"/></td>
+                            <td><a href="mailto:gabrielfalcaorios@gmail.com">gabrielfalcaorios@gmail.com</a></td>
+                        </tr>
+                        <tr id="address">
+                            <td><img src="img/map.png" alt="Address"/></td>
+                            <td>Ilhéus, Bahia, Brazil</td>
+                        </tr>
+                        <tr id="telephone">
+                            <td><img src="img/telephone.png" alt="tel"/></td>
+                            <td>+55 (73) 9151-3950</td>
+                        </tr>
+                    </table>
+
+                    <div class="social">
+                        <a target="_blank" href="http://facebook.com/gabrielfalcaorios" class="zocial icon facebook"></a>
+                        <a target="_blank" href="http://linkedin.com/in/gabrielfalcaorios" class="zocial icon linkedin"></a>
+                        <a target="_blank" href="http://twitter.com/gabrielrios" class="zocial icon twitter"></a>
+                        <a target="_blank" href="http://github.com/gabrielrios" class="zocial icon github"></a>
+                        <a target="_blank" href="http://last.fm/user/falkinhu" class="zocial icon lastfm"></a>
+                        <a target="_blank" href="http://steamcommunity.com/id/gabrielrios/" class="zocial icon steam"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grid_4">
+                &nbsp;
+            </div>
+        </div>
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
