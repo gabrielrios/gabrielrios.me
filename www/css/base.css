@@ -3,7 +3,7 @@ body {
 }
 
 .profile_picture {
-  background-image: url("/media/273741_664300751_1985924861_n.jpg");
+  background-image: url("http://www.gravatar.com/avatar/68fe78a2b1fa6c16a0c2f985d8d0f5d0.png");
   width: 64px;
   height: 64px;
   background-size: 82px;
@@ -66,12 +66,12 @@ h2 {
 }
 
 a {
-  color: #680148  ;
+  color: #000;
 }
 
 body {
   background-color: #E0EFF1;
-  color: #680148
+  color: #000;
 
 }
 
